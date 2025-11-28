@@ -117,7 +117,7 @@ list-style-type: none;
     height: 3px;
     margin: 6px auto;
     background-color: #fff;
-    transition: 0.2s;
+    transition: 1s;
   }
 
   .popup {
@@ -1130,6 +1130,7 @@ main{
     color: white;
 
 }
+
 
 
 
