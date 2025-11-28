@@ -38,7 +38,7 @@ html{
 }
 header{
     width: 100%;
-    background-image: url(./image/first_display1.png ), url(./assets/image/first_display2.png);
+    background-image: url(./image/first_display1.png ), url(./image/first_display2.png);
     background-size: 100% 100%;
     background-origin: border-box;
 }
@@ -1107,5 +1107,6 @@ main{
     color: white;
 
 }
+
 
 
