@@ -213,7 +213,7 @@ list-style-type: none;
     height: 49px;
     width: 43px;
     background-size: cover;
-    background-image: url(./assets/image/Vector\ Smart\ Object.png);
+    background-image: url(./image/Vector\ Smart\ Object.png);
 }
 main{
     text-align: center;
@@ -334,7 +334,7 @@ main{
     padding-bottom: 250px;
     text-align: center;
     width: 100%;
-    background-image:url(./assets/image/first_display1.png) ,url(./assets/image/PUT\ YOUR\ IMAGE\ HERE.png);
+    background-image:url(./image/first_display1.png) ,url(./image/PUT\ YOUR\ IMAGE\ HERE.png);
     background-size: 100% 100%;
     display: flex;
     flex-direction: column;
@@ -355,7 +355,7 @@ main{
 
 }
 .button_player:hover{
-    background: url(./assets/image/play.png),aqua;
+    background: url(./image/play.png),aqua;
     background-repeat: no-repeat;
     background-position: 34px 27px;
 }
@@ -467,7 +467,7 @@ main{
 }
 .OSNOWA4{
     width: 100%;
-    background-image: url(./assets/image/first_display1.png),url(./assets/image/OSNOWA4/PUT\ YOUR\ IMAGE\ HERE.png) ;
+    background-image: url(./image/first_display1.png),url(./image/OSNOWA4/PUT\ YOUR\ IMAGE\ HERE.png) ;
     background-size: 100% 100%;
     text-align: center;
     
@@ -679,7 +679,7 @@ main{
 .OSNOWA6{
     width: 100%;
 
-    background-image:url(./assets/image/first_display1.png) ,url(./assets/image/OSNOWA6/PUT\ YOUR\ IMAGE\ HERE.png);
+    background-image:url(./image/first_display1.png) ,url(./image/OSNOWA6/PUT\ YOUR\ IMAGE\ HERE.png);
     background-size: 100% 100%;
     text-align: center;
 }
@@ -904,7 +904,7 @@ main{
     
 }
 .OSNOWA8_NAKONEZ-TO{
-    background-image:url(./assets/image/first_display1.png), url(./assets/image/OSNOWA8/PUT\ YOUR\ IMAGE\ HERE.png);
+    background-image:url(./image/first_display1.png), url(./image/OSNOWA8/PUT\ YOUR\ IMAGE\ HERE.png);
     background-size: 100% 100%;
     width: 100%;
     transition-duration: 0.3s;
@@ -1107,4 +1107,5 @@ main{
     color: white;
 
 }
+
 
