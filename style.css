@@ -170,12 +170,12 @@ list-style-type: none;
   }
 
   .hamb__field.active .bar:nth-child(1) {
-    transform: translateY(8px) rotate(-45deg);
+    transform: translateY(11px) translateX(5px) rotate(-45deg);
     width:15px;
   }
 
   .hamb__field.active .bar:nth-child(3) {
-    transform: translateY(-9px) rotate(-45deg);
+    transform: translateY(4px) translateX(-6px) rotate(-45deg);
       width:15px;
   }
 }
@@ -1130,6 +1130,7 @@ main{
     color: white;
 
 }
+
 
 
 
