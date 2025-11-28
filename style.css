@@ -673,18 +673,18 @@ main{
     background-color: rgb(164, 164, 164);
 
 }
-.img_osnova51:nth-child(1){background-color:rgb(182,182,182)}
-.img_osnova51:nth-child(2){background-color:rgb(172,172,172)}
-.img_osnova51:nth-child(3){background-color:rgb(161,161,161)}
-.img_osnova51:nth-child(4){background-color:rgb(138,138,138)}
-.img_osnova51:nth-child(5){background-color:rgb(182,182,182)}
-.img_osnova51:nth-child(6){background-color:rgb(164,164,164)}
-.img_osnova51:nth-child(7){background-color:rgb(164,164,164)}
-.img_osnova51:nth-child(8){background-color:rgb(182,182,182)}
-.img_osnova51:nth-child(9){background-color:rgb(138,138,138)}
-.img_osnova51:nth-child(10){background-color:rgb(161,161,161)}
-.img_osnova51:nth-child(11){background-color:rgb(172,172,172)}
-.img_osnova51:nth-child(12){background-color:rgb(182,182,182)}
+.img_osnova51:nth-child(1){background-color:rgb(182,182,182);}
+.img_osnova51:nth-child(2){background-color:rgb(172,172,172);}
+.img_osnova51:nth-child(3){background-color:rgb(161,161,161);}
+.img_osnova51:nth-child(4){background-color:rgb(138,138,138);}
+.img_osnova51:nth-child(5){background-color:rgb(182,182,182);}
+.img_osnova51:nth-child(6){background-color:rgb(164,164,164);}
+.img_osnova51:nth-child(7){background-color:rgb(164,164,164);}
+.img_osnova51:nth-child(8){background-color:rgb(182,182,182);}
+.img_osnova51:nth-child(9){background-color:rgb(138,138,138);}
+.img_osnova51:nth-child(10){background-color:rgb(161,161,161);}
+.img_osnova51:nth-child(11){background-color:rgb(172,172,172);}
+.img_osnova51:nth-child(12){background-color:rgb(182,182,182);}
 .OSNOWA6{
     width: 100%;
 
@@ -1116,6 +1116,7 @@ main{
     color: white;
 
 }
+
 
 
 
