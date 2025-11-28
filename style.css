@@ -251,8 +251,18 @@ main{
 }
 .flexbox_osnova1{
     display: flex;
-    justify-content:center;
+    justify-content:space-around;
     flex-wrap: wrap;
+}
+@media (max-width: 775px) {
+    .osnova1 {
+        align-items: center;
+        text-align: center;
+        align-self: center;
+        padding: 0px;
+        margin-left: 0;
+        padding: 20px;
+    }
 }
 .title{
     font-size: 22px;
@@ -1116,6 +1126,7 @@ main{
     color: white;
 
 }
+
 
 
 
