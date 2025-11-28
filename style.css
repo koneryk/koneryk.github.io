@@ -247,6 +247,8 @@ main{
 .OSNOWA1{
     margin-top: 65px;
     text-align: center;
+    display:flex;
+    justify-content:center;
 
 }
 .flexbox_osnova1{
@@ -1126,6 +1128,7 @@ main{
     color: white;
 
 }
+
 
 
 
