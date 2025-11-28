@@ -1029,7 +1029,7 @@ main{
     width: 70px;
     height: 45px;
     background-color: rgba(255, 255, 255, 0.648);
-    background-image: url(./assets/image/OSNOWA8/paper122.png);
+    background-image: url(./image/OSNOWA8/paper122.png);
     background-repeat: no-repeat;
     background-size: 25px 25px;
     background-position: center;
@@ -1039,7 +1039,7 @@ main{
 }
 .button_osnova8:hover{
     background: rgba(9, 5, 47, 0.50);
-    background-image: url(./assets/image/OSNOWA8/paper122.png);
+    background-image: url(./image/OSNOWA8/paper122.png);
     background-repeat: no-repeat;
     background-position: center;
 }
@@ -1107,6 +1107,7 @@ main{
     color: white;
 
 }
+
 
 
 
