@@ -341,22 +341,20 @@ main{
     justify-content: center;
     align-items: center;
 }
-.button_player{
+.button_player {
     width: 100px;
     height: 100px;
     border-radius: 50%;
- 
-    border:1px solid white;
-    background: url(./image/play.png),rgba(255,255,255,0);
+    border: 1px solid white;
+    background-image: url(./image/play.png);
+    background-color: rgba(255, 255, 255, 0);
     background-position: 34px 27px;
     background-repeat: no-repeat;
-    transition-duration: 0.3s;
-    
-
+    transition: all 0.3s;
 }
-.button_player:hover{
-    background:url(./image/play.png),aqua;
-    background-repeat: no-repeat;
+.button_player:hover {
+    background-image: url(./image/play.png);
+    background-color: aqua;
     background-position: 34px 27px;
 }
 .text_osnova2{
@@ -1107,6 +1105,7 @@ main{
     color: white;
 
 }
+
 
 
 
