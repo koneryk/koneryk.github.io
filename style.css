@@ -355,8 +355,7 @@ main{
 
 }
 .button_player:hover{
-    background:aqua;
-    background-image: url(./image/play.png);
+    background:url(./image/play.png),aqua;
     background-repeat: no-repeat;
     background-position: 34px 27px;
 }
@@ -1108,6 +1107,7 @@ main{
     color: white;
 
 }
+
 
 
 
