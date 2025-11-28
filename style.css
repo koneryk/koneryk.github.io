@@ -467,7 +467,7 @@ main{
 }
 .OSNOWA4{
     width: 100%;
-    background-image: url(./image/first_display1.png),url(./image/OSNOWA4/PUT\ YOUR\ IMAGE\ HERE.png) ;
+    background-image: url(./image/first_display1.png),url(./image/OSNOWA4/PUT%20YOUR%20IMAGE%20HERE.png) ;
     background-size: 100% 100%;
     text-align: center;
     
@@ -1107,6 +1107,7 @@ main{
     color: white;
 
 }
+
 
 
 
