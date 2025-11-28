@@ -334,7 +334,7 @@ main{
 .osnova1{
     display: flex;
     flex-wrap: wrap;
-    width: 540px;
+    max-width: 540px;
     text-align: left;
 }
 
@@ -1126,6 +1126,7 @@ main{
     color: white;
 
 }
+
 
 
 
