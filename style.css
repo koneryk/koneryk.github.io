@@ -334,7 +334,6 @@ main{
     display: flex;
     flex-wrap: wrap;
     width: 540px;
-    padding-left: 100px;
     text-align: left;
 }
 
@@ -1126,6 +1125,7 @@ main{
     color: white;
 
 }
+
 
 
 
