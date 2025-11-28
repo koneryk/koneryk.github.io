@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header" id="Home">
+        <div class="grid_box">
+            <nav class="navnar">
+                <div class="LOGO">
+                    <div class="logowrapper">
+                        <div src="./assets/image/Vector Smart Object.png" alt="" class="img_logo"></div>
+                        <p class="text_logo">Tajam</p>
+                    </div>
+                </div>
+                      <div class="HAMP">
+                        <div class="hamb__field" id="hamb">
+                            <span class="bar"></span> <span class="bar"></span>
+                            <span class="bar"></span>
+                        </div>
+                      </div>                  
+                    <ul id="flexact" class="flexact">
+                        <li><a href="#Home" id="Home" class="a_text">Home</a></li>
+                        <li><a href="#About"  class="a_text">About</a></li>
+                        <li><a href="#Expertize"  class="a_text">Expertize</a></li>
+                        <li><a href="#Tearms"  class="a_text">Tearms</a></li>
+                        <li><a href="#Works"  class="a_text">Works</a>  </li>
+                        <li><a href="#Say"  class="a_text">People Say</a></li>
+                        <li><a href="#Contact"  class="a_text">Contact</a> </li>
+                    </ul>
+
+                </nav>
+            <div class="popup" id="popup"></div>
+            <script>
+const hamb = document.querySelector("#hamb");
+const popup = document.querySelector("#popup");
+const body = document.body;
+
+const menu = document.querySelector("#flexact").cloneNode(1);
+
+hamb.addEventListener("click", hambHandler);
+
+function hambHandler(e) {
+popup.classList.toggle("open");
+hamb.classList.toggle("active");
+renderPopup();
+}
+
+function renderPopup() {
+    popup.appendChild(menu);
+}
+
+const links = Array.from(menu.children);
+
+links.forEach((link) => {
+    link.addEventListener("click", closeOnClick);
+});
+
+function closeOnClick() {
+    popup.classList.remove("open");
+    hamb.classList.remove("active");
+}
+
+            </script>
+        <main class="main">
+            <div class="text_wrapper">
+                 <div class="main_text_first">We Are Awesome Creative Agency</div>
+            <p class="para">
+                <img src="./assets/image/Down_botton.jpg" alt="" class="separator">
+            </p>
+            <div class="main_text_two_FLEXBOX">
+                <div class="main_text_two">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit.</div>
+
+            </div>
+            </div>
+                   <button type="button" class="button_osnova1">Learn More</button> 
+            <div class="dotnav">
+                    <button class="img_dotnav"></button>
+                    <button class="img_dotnav"></button>
+                    <button class="img_dotnav"></button>
+                    <button class="img_dotnav"></button>
+            </div>
+        </main>
+
+            
+        </div>
+
+        </div>
+    </header>
+        <div class="OSNOWA1">
+            <div class="flexbox_osnova1">
+                <div class="logobig">
+                    <img src="./assets/image/Replace with your logo.png" alt="" srcset="">
+                </div>
+                <div class="osnova1">
+                    <div class="title">OUR STORY</div>
+                    <div class="text1">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus</div>
+
+    <div class="text2">Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos.</div>
+                    <button class="button_osnova1">Learn More</button>
+                </div> 
+            </div>
+
+        </div>
+        <div id="About" class="OSNOWA2">
+
+            <button class="button_player"></button>
+            <div class="text_osnova2">WATCH OUR STORY</div>
+        </div>
+        <div id="Expertize" class="OSNOWA3">
+            <div class="text_osnowa3">
+                <div class="title_osnova3">EXPERTISE</div>
+                <div class="addtext_osnova3">Lorem ipsum dolor sit amet proin gravida nibh vel velit</div>
+                <img class="separator_osnova3" src="./assets/image/Separator.png" alt="" srcset="">
+            </div>
+            <div class="billbord">
+                <div class="billbord_area">
+                    <div class="box_bilbord"><img src="./assets/image/six_folder/PUT YOUR ICON HERE.png" alt="" class="img_bilbord"><div class="text_bilbordmain">MADE WITH LOVE</div><div class="text_bilborddop">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet Aenean.</div></div>
+                    <div class="box_bilbord"><img src="./assets/image/six_folder/PUT YOUR ICON HERE-1.png" alt="" class="img_bilbord"><div class="text_bilbordmain">GAME DEVELOPMENT</div><div class="text_bilborddop">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet Aenean.</div></div>
+                    <div class="box_bilbord"><img src="./assets/image/six_folder/PUT YOUR ICON HERE-2.png" alt="" class="img_bilbord"><div class="text_bilbordmain">SEARCH ENGINE OPTIMIZATION</div><div class="text_bilborddop">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet Aenean.</div></div>
+                    <div class="box_bilbord"><img src="./assets/image/six_folder/PUT YOUR ICON HERE-3.png" alt="" class="img_bilbord"><div class="text_bilbordmain">MOBILE APP</div><div class="text_bilborddop">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet Aenean.</div></div>
+                    <div class="box_bilbord"><img src="./assets/image/six_folder/PUT YOUR ICON HERE-4.png" alt="" class="img_bilbord"><div class="text_bilbordmain">BRANDING IDENTITY</div><div class="text_bilborddop">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet Aenean.</div></div>
+                    <div class="box_bilbord"><img src="./assets/image/six_folder/PUT YOUR ICON HERE-5.png" alt="" class="img_bilbord"><div class="text_bilbordmain">WEB DESIGN & DEVELOPMENT</div><div class="text_bilborddop">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet Aenean.</div></div>
+                </div>
+                
+            </div>
+        </div>
+        <div id="Tearms" class="OSNOWA4">
+            <div class="title_osnova4">
+                <div class="title_osnova4_one">MEET OUR AMAZING TEAM</div>
+                <div class="dop_title_osnova4_one">Lorem ipsum dolor sit amet proin gravida nibh vel velit</div>
+                <div class="separator_osnova4">
+                    <img src="./assets/image/Separator2.png" alt="" class="separator_img_osnova4">
+                </div>
+            </div>
+            <div class="body_osnova4">
+                <div class="img_osnova4">
+                    <div class="wrapper_img_osnova4">
+                        <img src="./assets/image/OSNOWA4/PUT YOUR IMAGE HERE-1.png" alt="" srcset="" class="img_osnova4_main">
+                            <div class="footer_img_osnova4">
+                                <div class="text_img_osnova4_1">SEMF UCUK</div>
+                                <div class="text_img_osnova4_2">CEO & FOUNDER</div>
+                             </div>
+                    </div>
+
+                </div>
+                <div class="img_osnova4">
+                    <div class="wrapper_img_osnova4">
+                            <img src="./assets/image/OSNOWA4/PUT YOUR IMAGE HERE-1.png" alt="" srcset="" class="img_osnova4_main">
+                            <div class="footer_img_osnova4">
+                                <div class="text_img_osnova4_1">DIK ADALIN</div>
+                                <div class="text_img_osnova4_2">ENGINEERING</div>
+                             </div>
+                    </div>
+                </div>
+                <div class="img_osnova4">
+                    <div class="wrapper_img_osnova4">
+                            <img src="./assets/image/OSNOWA4/PUT YOUR IMAGE HERE-1.png" alt="" srcset="" class="img_osnova4_main">
+                            <div class="footer_img_osnova4">
+                                <div class="text_img_osnova4_1">JENG KOL</div>
+                                <div class="text_img_osnova4_2">DESIGNER</div>
+                             </div>
+                    </div>
+                </div>
+
+                <div class="img_osnova4">
+                    <div class="wrapper_img_osnova4">
+                            <img src="./assets/image/OSNOWA4/PUT YOUR IMAGE HERE-1.png" alt="" srcset="" class="img_osnova4_main">
+                            <div class="footer_img_osnova4">
+                                <div class="text_img_osnova4_1">PET ROMAK</div>
+                                <div class="text_img_osnova4_2">MARKETING</div>
+                             </div>
+                    </div>
+                </div>
+            </div>
+            <div class="footer_osnova4">
+                <div class="text_footer_osnova4">Become part of our dream team, lets join us ! </div>
+                </div>
+                <button class="button_osnova4">WE ARE HIRING</button>
+     
+
+        </div>
+        <div id="Works" class="OSNOWA5">
+            <div class="main_osnova5">
+                <div class="maintext_osnova5">OUR WORKS</div>
+                <div>
+                    <a href="#" class="main_a_osnova5"><div class="text_a_osnova5">See All Project in dribbble</a><img src="./assets/image/OSNOWA5/right154.png" alt=""></a></div>
+                </div>
+                
+            </div>
+            <div class="body_osnova5">
+
+                    <div class="img_osnova51"></div>
+                    <div class="img_osnova51"></div>
+                    <div class="img_osnova51"></div>
+                    <div class="img_osnova51"></div>
+                    <div class="img_osnova51"></div>
+                    <div class="img_osnova51"></div>
+                    <div class="img_osnova51"></div>
+                    <div class="img_osnova51"></div>
+                    <div class="img_osnova51"></div>
+                    <div class="img_osnova51"></div>
+                    <div class="img_osnova51"></div>
+                    <div class="img_osnova51"></div>
+                    
+                
+            </div>
+            <div class="footer_osnova5">
+                <button class="Button_osnova5">Learn More</button>
+            </div>
+        </div>
+        <div id="Say" class="OSNOWA6">
+            <div class="main_osnova6">
+                <img src="./assets/image/OSNOWA6/“.png" alt="" srcset="">
+            </div>
+            <div class="bady_osnova6">
+                <div class="text_osnova6_1">This is Photoshop's version  of Lorem Ipsum. Proin gravida nibh vel velit auctor aliquet. Aenean sollicitudin, lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh id elit. Duis sed odio sit amet nibh vulputate cursus a sit amet mauris. Morbi accumsan ipsum velit. Nam nec tellus a odio tincidunt auctor a ornare odio. Sed non  mauris vitae erat consequat auctor eu in elit.</div>
+            </div>
+            <div class="dop_text_osnova6">
+                <div class="text_dop_osnova6_1">JANE GALADRIEL</div>
+                <div class="text_dop_osnova6_2">CEO TENGKUREP</div>
+            </div>
+                    
+
+            
+            <div class="footer_osnova6">
+
+                <div><img id="window1" src="./assets/image/OSNOWA6/PUT YOUR IMAGE HERE-1.png" alt="" class="img_osnova6"></div>
+                <div><img id="window2" src="./assets/image/OSNOWA6/PUT YOUR IMAGE HERE-2.png" alt="" class="img_osnova6"></div>
+                <div><img id="window3" style="width: 70px;height: 70px;" src="./assets/image/OSNOWA6/PUT YOUR IMAGE HERE-3.png"  alt="" class="img_osnova6"></div>
+                <div><img id="window4" src="./assets/image/OSNOWA6/PUT YOUR IMAGE HERE-4.png" alt="" class="img_osnova6"></div>
+                <div><img id="window5" src="./assets/image/OSNOWA6/PUT YOUR IMAGE HERE-5.png" alt="" class="img_osnova6"></div>
+<script>
+    const images = document.querySelectorAll('.img_osnova6');
+const defaultSize = { width: 45, height: 45 };
+const activeSize = { width: 70, height: 70 };
+
+images.forEach((img) => {
+  img.addEventListener('mouseenter', () => {
+    images.forEach(i => {
+      i.style.width = defaultSize.width + 'px';
+      i.style.height = defaultSize.height + 'px';
+    });
+    img.style.width = activeSize.width + 'px';
+    img.style.height = activeSize.height + 'px';
+  });
+
+  img.addEventListener('mouseleave', () => {
+    images.forEach(i => {
+      i.style.width = defaultSize.width + 'px';
+      i.style.height = defaultSize.height + 'px';
+    });
+  });
+});
+</script>
+            </div>
+        </div>
+        <div class="ONSOWA7">
+            <div class="wrapper_osnova7">
+                <div class="left_osnova7">
+                    <div class="text_title_osnova7_1">GIVE US A GOOD NEWS</div>
+                    <input placeholder="Name" type="text" class="input_left_osnova7">
+                    <input placeholder="Email" type="email" class="input_left_osnova7">
+                    <input placeholder="Subject" type="text" class="input_left_osnova7">
+                    <input placeholder="Your Massage" type="text" class="input_left_osnova7-outline">
+                    <button class="button_osnova7">SUBMIT</button>
+                </div>
+                <div class="right_osnoava7">
+                    <div class="text_title_osnova7_2">OUR HAPPY CLIENT</div>
+                    <div class="flex_box_right_osnova7">
+                        <div class="div_img_osnova7"><img src="./assets/image/OSNOWA7/1280px-Barneys_New_York_Logo.svg.png" alt="" class="img_osnova7"></div>
+                        <div class="div_img_osnova7"><img src="./assets/image/OSNOWA7/1280px-Gucci_Logo.svg.png" alt="" class="img_osnova7"></div>
+                        <div class="div_img_osnova7"><img src="./assets/image/OSNOWA7/1280px-Levi's_logo.svg.png" alt="" class="img_osnova7"></div>
+                        <div class="div_img_osnova7"><img src="./assets/image/OSNOWA7/Billabong.svg.png" alt="" class="img_osnova7"></div>
+                        <div class="div_img_osnova7"><img src="./assets/image/OSNOWA7/Calvin_klein_logo.svg.png" alt="" class="img_osnova7"></div>
+                        <div class="div_img_osnova7"><img src="./assets/image/OSNOWA7/Converse_logo.svg.png" alt="" class="img_osnova7"></div>
+                        <div class="div_img_osnova7"><img src="./assets/image/OSNOWA7/Logo_of_Mango_(new).svg.png" alt="" class="img_osnova7"></div>
+                        <div class="div_img_osnova7"><img src="./assets/image/OSNOWA7/Puma_Logo.svg.png" alt="" class="img_osnova7"></div>
+                        <div class="div_img_osnova7"><img src="./assets/image/OSNOWA7/Zara_Logo.svg.png" alt="" class="img_osnova7"></div>
+                        <div class="div_img_osnova7"><img src="./assets/image/OSNOWA7/1280px-Logo_NIKE.svg.png" alt="" class="img_osnova7">  </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+        <div id="Contact" class="OSNOWA8_NAKONEZ-TO">
+
+            <div class="main_osnova8">
+
+                <div class="wrapper_nav_osnova8">
+                    <div class="title_osnova8">
+                        <img src="./assets/image/OSNOWA8/Vector Smart Object.png" alt="" srcset="">
+                        <div class="text_title_osnova8">tajam</div>
+                    </div>
+                    <div class="body_osnova8">lorem quis bibendum auctor, nisi elit consequat ipsum, nec sagittis sem nibh elit. Duis sed odio sit amet auctror a ornare odio non mauris vitae erat in elit</div>
+                </div>
+
+
+                <div class="wrapper_nav_osnova8">
+                    <div class="title2_osnova8">OUR STUDIO</div>
+                    <div class="body_two_osnova8">
+                        <div class="text_two_osnova8_2"><img class="img_text_two_osnova8_2" src="./assets/image/OSNOWA8/big104.png" alt="" srcset="">Ruko cucruk, Jl. Radio luar dalem jos No.12 - 13, Kalideres - Jakarta Barat
+11480 - Indonesia</div>
+                        <div class="text_two_osnova8_3">
+                            
+                            <div class="text_two_osnova8_3"><img class="img_text_two_osnova8_3" src="./assets/image/OSNOWA8/phone351.png" alt="" srcset="">(+62) 21-2224 3333</div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="wrapper_nav_osnova8_3">
+                    <div class="title_three_osnova8">STAY IN TOUCH</div>
+                    <div class="body_three_osnova8">
+                        <input placeholder="        Subscribe our newsletter"  class="input_osnova8" type="text"><button class="button_osnova8"></button>
+                    </div>
+                    <div class="footer_osnova8">
+                        <button class="button_osnova8_mini"><img src="./assets/image/OSNOWA8/facebook25.png" alt="" srcset=""></button>
+                        <button class="button_osnova8_mini"><img src="./assets/image/OSNOWA8/dribbble4.png" alt="" srcset=""></button>
+                        <button class="button_osnova8_mini"><img src="./assets/image/OSNOWA8/google26.png" alt="" srcset=""></button>
+                        <button class="button_osnova8_mini"><img src="./assets/image/OSNOWA8/instagram3.png" alt="" srcset=""></button>
+                        <button class="button_osnova8_mini"><img src="./assets/image/OSNOWA8/twitter16.png" alt="" srcset=""></button>
+                        <button class="button_osnova8_mini"><img src="./assets/image/OSNOWA8/youtube13.png" alt="" srcset=""></button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer_osnova8_osnova">
+                <div class="nav_left_osnova8">
+                    <div class="nav_left_osnova8_flex">
+                        <a href="#" class="nav_left">HELP</a>
+                        <a href="#" class="nav_left">TERMS & CONDITION</a>
+                        <a href="#" class="nav_left">PRIVACY</a>
+                    </div>
+
+                </div>
+                <div class="nav_right_osnova8">
+                    <div class="nav_right">Copyright © 2015 - Tajem Creative</div>
+                </div>
+            </div>
+        </div>
+
+
+
+</body>
+</html>
