@@ -1,31 +1,31 @@
 @font-face {
     font-family: "Roboto";
-    src: url(./assets/font/Roboto/static/Roboto-Light.ttf);
+    src: url(./font/Roboto/static/Roboto-Light.ttf);
 }
 @font-face {
     font-family: "Playfair_Display";
-    src: url(./assets/font/Playfair_Display/static/PlayfairDisplay-Black.ttf);
+    src: url(./font/Playfair_Display/static/PlayfairDisplay-Black.ttf);
 }
 @font-face {
     font-family: "Playfair_Display_Regular";
-    src: url(./assets/font/Playfair_Display/static/PlayfairDisplay-Regular.ttf);
+    src: url(./font/Playfair_Display/static/PlayfairDisplay-Regular.ttf);
 }
 
 @font-face {
     font-family:"Hammersmith_One";
-    src: url(./assets/font/Hammersmith_One/static/HammersmithOne-Regular.ttf);
+    src: url(./font/Hammersmith_One/static/HammersmithOne-Regular.ttf);
 }
 @font-face {
     font-family: "Roboto_Regular";
-    src: url(./assets/font/Roboto/static/Roboto-Regular.ttf);
+    src: url(./font/Roboto/static/Roboto-Regular.ttf);
 }
 @font-face {
     font-family: "Roboto_Black";
-    src: url(./assets/font/Roboto/static/Roboto-Black.ttf);
+    src: url(./font/Roboto/static/Roboto-Black.ttf);
 }
 @font-face {
     font-family: "Roboto_Thin";
-    src: url(./assets/font/Roboto/static/Roboto-Thin.ttf);
+    src: url(./font/Roboto/static/Roboto-Thin.ttf);
 }
 *{
     padding: 0;
@@ -1105,4 +1105,5 @@ main{
     font-size: 15px;
     letter-spacing: 0.75px;    
     color: white;
+
 }
