@@ -345,7 +345,7 @@ main{
     text-align: center;
     width: 100%;
     background-image:url(./image/first_display1.png) ,url(./image/PUT\ YOUR\ IMAGE\ HERE.png);
-    background-size: 100% 100%;
+    background-size: cover;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -476,7 +476,7 @@ main{
 .OSNOWA4{
     width: 100%;
     background-image: url(./image/first_display1.png),url(./image/OSNOWA4/PUT%20YOUR%20IMAGE%20HERE.png) ;
-    background-size: 100% 100%;
+    background-size: cover;
     text-align: center;
     
 }
@@ -699,7 +699,7 @@ main{
     width: 100%;
 
     background-image:url(./image/first_display1.png) ,url(./image/OSNOWA6/PUT\ YOUR\ IMAGE\ HERE.png);
-    background-size: 100% 100%;
+    background-size: cover;
     text-align: center;
 }
 .main_osnova6{
@@ -778,7 +778,7 @@ main{
     width: 100%;
     padding-bottom: 70px;
     background-color: white;
-    background-size: 100% 100%;
+    background-size: cover;
     transition-duration: 0.3s;
 }
 .text_title_osnova7_1{
@@ -924,7 +924,7 @@ main{
 }
 .OSNOWA8_NAKONEZ-TO{
     background-image:url(./image/first_display1.png), url(./image/OSNOWA8/PUT\ YOUR\ IMAGE\ HERE.png);
-    background-size: 100% 100%;
+    background-size: cover;
     width: 100%;
     transition-duration: 0.3s;
 }
@@ -1126,6 +1126,7 @@ main{
     color: white;
 
 }
+
 
 
 
